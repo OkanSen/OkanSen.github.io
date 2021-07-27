@@ -16,22 +16,22 @@ body {
 
 #nav-brand{
   position: relative;
-  left: 200px;
+  left: 14%;
 }
 
 #nav-home-btn {
   position: relative;
-  left: 200px;
+  left: 305%;
 }
 
 #nav-link-btn {
   position: relative;
-  left: 200px;
+  left: 405%;
 }
 
 #nav-dis-btn {
   position: relative;
-  left: 200px;
+  left: 235%;
 }
 
 .top-nav-collapse {
