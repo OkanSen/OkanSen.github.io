@@ -1,0 +1,49 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+.navbar {
+  -webkit-box-shadow: 0 8px 6px -6px rgb(44, 44, 44);
+  -moz-box-shadow: 0 8px 6px -6px rgb(44, 44, 44);
+  box-shadow: 0 8px 6px -6px rgb(63, 63, 63);
+
+  /* the rest of your styling */
+}
+#mainNav.navbar--home{
+  background:transparent;
+}
+.top-nav-collapse {
+  background-color: #78909c !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+nav .navbar-nav li a{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white !important;
+  }
+
+.bg{
+  background-image: url('okan-sen-HBB1.jpg');
+  width: 100%;
+  height:729px;
+  position:relative;
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1 {
+  position: relative;
+  color: #fff;
+  letter-spacing: 8px;
+}
+
+.hr-light {
+  border-top: 3px solid #fff;
+  width: 80px;
+  margin: auto;
+}
