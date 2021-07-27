@@ -27,8 +27,9 @@ nav .navbar-nav li a{
   font-family: Montserrat;
   color: white !important;
   }
-  nav .navbar-nav input[type="text"]
-  {
+
+  nav .navbar-nav .form-control {
+    background-color: transparent;
       background: transparent;
       border: none;
   }
@@ -65,4 +66,12 @@ h1 {
   border-top: 3px solid #fff;
   width: 80px;
   margin: auto;
+}
+
+h5 {
+  font-family: Montserrat;
+  position: relative;
+  color: #fff;
+  letter-spacing: 8px;
+  
 }
