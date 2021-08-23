@@ -71,6 +71,9 @@ nav .navbar-nav li a {
     background-repeat: no-repeat;
     background-position: center center;
 }
+div{
+    column-width: auto;
+}
 
 .row{
     background-color: black;
@@ -85,9 +88,7 @@ nav .navbar-nav li a {
     border: none;
 
     height: 50vh;
-
-    padding-left: 2vh;
-    padding-right: 2vh;
+    
     overflow: hidden;
 
     
@@ -106,16 +107,26 @@ h1{
 
 #t-a-txt{
     position: absolute;
-    translate: (50%,50%);
+    top: 40%;
 
+    /*First column center is 25% but 
+    to center the text to that spot 
+    we have to find a good number*/
+    left: 19%;
     
-    opacity: 100; 
+    opacity: 0; 
 }
 #t-s-txt{
     position: absolute;
+    top: 40%;
+
+    /*Second column center is 75% but 
+    to center the text to that spot 
+    we have to find a good number*/
+    left: 67%;
 
     
-    opacity: 0; 
+    opacity: 100; 
 }
 a.btn.btn-outline-white{
     padding: 0;
@@ -127,24 +138,18 @@ a.btn.btn-outline-white{
 
 
 #traditional-art-btn:hover #traditional-art-img{
-    transition: 0.2s ease-in;
-    filter: brightness(30%);
+    transition: 0.2s;
+    filter: brightness(20%);
 }
-
 #traditional-art-btn:hover #t-a-txt{
-    transition: 0.2s ease-in;
     opacity: 100;
 }
 
 #traditional-sketches-btn:hover #traditional-sketches-img{
-    transition: 0.2s ease-in;
-    filter: brightness(30%);
-
-    
+    transition: 0.2s;
+    filter: brightness(20%);
 }
-
 #traditional-sketches-btn:hover #t-s-txt{
-    transition: 0.2 ease-in-out;
     opacity: 100;
 }
 
