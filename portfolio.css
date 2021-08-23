@@ -1,6 +1,8 @@
 body {
     width: 100%;
     height: 100%;
+
+    background-color: black;
 }
 .navbar {
     -webkit-box-shadow: 0 8px 6px -6px rgb(44, 44, 44);
@@ -65,7 +67,7 @@ nav .navbar-nav li a {
 
 .bg{
     background-color: black;
-    height:100vh;
+    height:100%;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -99,35 +101,65 @@ img {
     width: 100%;
     overflow: hidden;
 }
+
+
 h1{
     font-family: Montserrat;
     font-size: 3vh !important;
     color: white;
+
+    position: absolute;
+    opacity: 0;
+    top: 45%;
 }
 
-#t-a-txt{
-    position: absolute;
-    top: 40%;
-
+/*      ------------------------    */
+/*          UNIQUE TEXTS HERE       */
+/*      ------------------------    */
+#td-txt{
     /*First column center is 25% but 
     to center the text to that spot 
     we have to find a good number*/
-    left: 19%;
-    
-    opacity: 0; 
+    left: 15.7%;
 }
-#t-s-txt{
-    position: absolute;
-    top: 40%;
 
+#arch-txt{
     /*Second column center is 75% but 
     to center the text to that spot 
     we have to find a good number*/
-    left: 66.5%;
-
-    
-    opacity: 0; 
+    left: 65.8%;
 }
+
+
+#ta-txt{
+    /*First column center is 25% but 
+    to center the text to that spot 
+    we have to find a good number*/
+    left: 19%; 
+}
+#digital-txt{
+    /*Second column center is 75% but 
+    to center the text to that spot 
+    we have to find a good number*/
+    left: 70.5%;  
+}
+
+#orch-txt{
+    /*First column center is 25% but 
+    to center the text to that spot 
+    we have to find a good number*/
+    left: 14.6%;  
+}
+#va-txt{
+    /*Second column center is 75% but 
+    to center the text to that spot 
+    we have to find a good number*/
+    left: 69.6%;
+}
+
+/*      ---------------------------         */
+/*          UNIQUE BUTTONS HERE             */
+/*      ---------------------------         */
 a.btn.btn-outline-white{
     padding: 0;
     background-size: cover;
@@ -136,20 +168,51 @@ a.btn.btn-outline-white{
     color: none;
 }
 
-
-#traditional-art-btn:hover #traditional-art-img{
+#td-btn:hover #td-img{
     transition: 0.2s;
     filter: brightness(20%);
 }
-#traditional-art-btn:hover #t-a-txt{
+#td-btn:hover #td-txt{
     opacity: 100;
 }
 
-#traditional-sketches-btn:hover #traditional-sketches-img{
+#arch-btn:hover #arch-img{
     transition: 0.2s;
     filter: brightness(20%);
 }
-#traditional-sketches-btn:hover #t-s-txt{
+#arch-btn:hover #arch-txt{
+    opacity: 100;
+}
+
+#ta-btn:hover #ta-img{
+    transition: 0.2s;
+    filter: brightness(20%);
+}
+#ta-btn:hover #ta-txt{
+    opacity: 100;
+}
+
+#digital-btn:hover #digital-img{
+    transition: 0.2s;
+    filter: brightness(20%);
+}
+#digital-btn:hover #digital-txt{
+    opacity: 100;
+}
+
+#orch-btn:hover #orch-img{
+    transition: 0.2s;
+    filter: brightness(20%);
+}
+#orch-btn:hover #orch-txt{
+    opacity: 100;
+}
+
+#va-btn:hover #va-img{
+    transition: 0.2s;
+    filter: brightness(20%);
+}
+#va-btn:hover #va-txt{
     opacity: 100;
 }
 
