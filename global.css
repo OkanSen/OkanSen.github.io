@@ -64,15 +64,20 @@ nav .navbar-nav li a {
 
 #mask-div{
   position: absolute;
-  left: 50vh;
-  right: 50vh;
+  left: 25vw;
+  right: 25vw;
   top: 25vh;
+}
+
+.col{
+  text-align: center;
 }
 
 .bg{
   background-image: url("https://drive.google.com/uc?export=view&id=1n47oGlsxvI9AwvdmUVQlzr8na67rpUrE");
   
   height:100vh;
+  width: 100vw;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
