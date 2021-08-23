@@ -78,20 +78,17 @@ div{
 }
 
 .row{
-    padding: 0.5vh;
+    padding: 0.5vw;
     background-color: black;
     position: relative;
-    top: 10vh;
+    top: 5vw;
+    height: 25vw;
 }
-
-
 
 .col{
     background-color: black;
     border: none;
 
-    height: 50vh;
-    
     overflow: hidden;  
 }
 
@@ -103,7 +100,7 @@ img {
 
 h1{
     font-family: Montserrat;
-    font-size: 3vh !important;
+    font-size: 1.5vw !important;
     color: white;
 
     position: absolute;
