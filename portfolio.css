@@ -77,17 +77,17 @@ div{
     column-width: auto;
 }
 
-.row{
-    padding: 0.5vw;
+.top-buffer{
+    margin-top: 0.5vw;
     background-color: black;
     position: relative;
     top: 5vw;
     height: 25vw;
 }
 
-.col{
+.overflow-cl{
     background-color: black;
-    border: none;
+    
 
     overflow: hidden;  
 }
