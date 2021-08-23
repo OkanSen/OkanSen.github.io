@@ -97,7 +97,7 @@ h1 {
 }
 
 .hr-light {
-  border-top: 3px solid #fff;
+  border-top: 3px solid white;
   width: 80px;
   margin: auto;
 }

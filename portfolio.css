@@ -78,7 +78,7 @@ div{
 }
 
 .top-buffer{
-    margin-top: 0.5vw;
+    padding-top: 0.5vw;
     background-color: black;
     position: relative;
     top: 5vw;
