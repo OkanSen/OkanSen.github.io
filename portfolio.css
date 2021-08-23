@@ -76,6 +76,7 @@ div{
 }
 
 .row{
+    padding: 0.5vh;
     background-color: black;
     position: relative;
     top: 10vh;
@@ -102,7 +103,6 @@ h1{
     font-family: Montserrat;
     font-size: 3vh !important;
     color: white;
-
 }
 
 #t-a-txt{
@@ -123,10 +123,10 @@ h1{
     /*Second column center is 75% but 
     to center the text to that spot 
     we have to find a good number*/
-    left: 67%;
+    left: 66.5%;
 
     
-    opacity: 100; 
+    opacity: 0; 
 }
 a.btn.btn-outline-white{
     padding: 0;
