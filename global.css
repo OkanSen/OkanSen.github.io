@@ -64,8 +64,8 @@ nav .navbar-nav li a {
 
 #mask-div{
   position: absolute;
-  left: 25vw;
-  right: 25vw;
+  left: 12.5vw;
+  right: 12.5vw;
   top: 25vh;
 }
 
@@ -97,13 +97,13 @@ h1 {
   top: 0px;
   left: center;
   color: #fff;
-  letter-spacing: 8px;
+  letter-spacing: 0.5vw;
   
 }
 
 .hr-light {
   border-top: 3px solid white;
-  width: 80px;
+  width: 160px;
   margin: auto;
 }
 
@@ -111,7 +111,7 @@ h5 {
   font-family: Montserrat;
   position: relative;
   color: #fff;
-  letter-spacing: 8px;
+  letter-spacing: 0.5vw;
   
 }
 
@@ -175,54 +175,44 @@ h5 {
 }
 
 #social-row {
-  display: flex;
+  display: table-row;
   justify-content: space-around;
+  align-items: center;
+  vertical-align: middle;
 }
 
 ul{
   list-style: none;
+  align-items: center;
 }
 ul li{
-    display: inline
+    display: inline;
+    align-items: center;
 }
 a{
   text-decoration: none;
 }
 
 #ig-btn {
-  left: auto;
   border: none;
   background-color: transparent;
   color: white;
-  padding-left: 3vh;
-  padding-right: 3vh;
 }
 
 #yt-btn {
-  left: auto;
   border: none;
   background-color: transparent;
   color: white;
-  padding-left: 3vh;
-  padding-right: 3vh;
 }
 
 #gh-btn {
-  left: auto;
   border: none;
   background-color: transparent;
   color: white;
-  padding-left: 3vh;
-  padding-right: 3vh;
-  
 }
 
 #li-btn {
-  left: auto;
   border: none;
   background-color: transparent;
   color: white;
-  padding-left: 3vh;
-  padding-right: 3vh;
-  
 }
