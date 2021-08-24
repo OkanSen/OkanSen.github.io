@@ -1,7 +1,8 @@
 body {
   width: 100vw;
   height: 100vh;
-  overflow-y: hidden;
+  overflow: hidden;
+  margin: 0;
 }
 .navbar {
   -webkit-box-shadow: 0 8px 6px -6px rgb(44, 44, 44);
