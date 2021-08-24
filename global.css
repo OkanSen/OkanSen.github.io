@@ -187,9 +187,17 @@ h5 {
   vertical-align: middle;
 }
 
+
+
 ul{
   list-style: none;
+  
+  text-align: center;
   align-items: center;
+  
+}
+.soc{
+  padding: 0;
 }
 ul li{
     display: inline;
