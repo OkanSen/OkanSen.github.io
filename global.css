@@ -4,8 +4,9 @@ html {
 
 body {
   width: 100vw;
-  height: 100vh;
-  overflow-y: scroll;
+  min-height: -webkit-fill-available;
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
   -webkit-overflow-scrolling:touch;
 }
 .navbar {
