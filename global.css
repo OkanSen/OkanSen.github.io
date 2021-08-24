@@ -4,7 +4,7 @@ html {
 
 body {
   width: 100vw;
-  min-height: -webkit-fill-available;
+  height: 100%;
   overflow-y: hidden; /* Hide vertical scrollbar */
   overflow-x: hidden; /* Hide horizontal scrollbar */
   -webkit-overflow-scrolling:touch;
