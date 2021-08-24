@@ -73,7 +73,7 @@ nav .navbar-nav li a {
   position: absolute;
   left: 3vw;
   right: 3vw;
-  top: 25vh;
+  top: 12.5vw;
 }
 
 .col{
@@ -211,6 +211,7 @@ ul li{
 a{
   text-decoration: none;
 }
+
 
 #ig-btn {
   border: none;
