@@ -7,7 +7,11 @@ body {
   height: 100%;
   overflow-y: hidden; /* Hide vertical scrollbar */
   overflow-x: hidden; /* Hide horizontal scrollbar */
-  -webkit-overflow-scrolling:touch;
+  /* prevent overscroll bounce*/
+  background-color: lightgreen;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  /* iOS velocity scrolling */
 }
 .navbar {
   -webkit-box-shadow: 0 8px 6px -6px rgb(44, 44, 44);
