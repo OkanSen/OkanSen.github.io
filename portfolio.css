@@ -107,6 +107,7 @@ nav .navbar-nav li a {
     background-color: black;
     padding-left: 0;
     padding-right: 0;
+    max-height: 50vh;
 
 }
 
