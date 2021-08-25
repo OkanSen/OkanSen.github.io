@@ -108,12 +108,13 @@ nav .navbar-nav li a {
     padding-left: 0;
     padding-right: 0;
     max-height: 50vh;
+    display: flex;
 
 }
 
 .img-responsive{
-    width: 100%;
-    overflow: hidden;
+    object-fit: cover;
+    max-width:100%;
 }
 
 
