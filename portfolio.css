@@ -1,6 +1,5 @@
 html {
     overflow-x: hidden;
-    
   }
 
 body {
@@ -94,24 +93,21 @@ nav .navbar-nav li a {
 .container-fluid.cont-custom{
     width: 90%;
     position: absolute;
-    top: 15vh;
+    top: 10vh;
 }
 
 .top-buffer{
-    padding: 2px;
     background-color: black;
     position: relative;
     overflow: hidden;
-    height: 50vh;
 }
 
 
-.overflow-cl{
+.col-md-6.overflow-cl{
     background-color: black;
-    width: 100%;
-    height: 100%;
+    padding-left: 0;
+    padding-right: 0;
 
-    overflow: hidden;  
 }
 
 .img-responsive{
@@ -233,7 +229,15 @@ a.btn.btn-outline-white{
     opacity: 100;
 }
 
+h1{
+    font-family: Montserrat;
+    color: #fff;
+    letter-spacing: 0.5vw;
+    
+}
+  
 
-
-
+.blank-cont{
+    height: 200px;
+}
 
