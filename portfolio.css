@@ -66,8 +66,14 @@ nav .navbar-nav li a {
 
 
 .bg{
+    position: absolute;
+    margin-top: 5vh;
+
+    display: flex;
+    justify-content: space-around;
+
     background-color: black;
-    height:100%;
+    
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -76,7 +82,11 @@ nav .navbar-nav li a {
 div{
     column-width: auto;
 }
-
+.mask.rgba-black-light.align-items-center{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
 .top-buffer{
     padding-top: 0.5vw;
     background-color: black;
@@ -84,7 +94,13 @@ div{
     top: 5vw;
     height: 25vw;
 }
-
+.container.cont-custom{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
 .overflow-cl{
     background-color: black;
     
