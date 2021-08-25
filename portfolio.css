@@ -96,10 +96,8 @@ nav .navbar-nav li a {
 }
 
 .top-buffer{
-    padding-top: 0.5vw;
     background-color: black;
     position: relative;
-    top: 5vw;
     height: 25vw;
 }
 
