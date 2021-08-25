@@ -1,3 +1,8 @@
+html {
+    overflow-x: hidden;
+    
+  }
+
 body {
     width: 100vw;
     height: 100vh;
@@ -86,19 +91,18 @@ nav .navbar-nav li a {
     justify-content: space-around;
 }
 
-.container.cont-custom{
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 0;
-    padding-right: 0;
+.container-fluid.cont-custom{
+    width: 90%;
+    position: absolute;
     top: 15vh;
 }
 
 .top-buffer{
+    padding: 2px;
     background-color: black;
     position: relative;
-    height: 25vw;
+    overflow: hidden;
+    height: 50vh;
 }
 
 
