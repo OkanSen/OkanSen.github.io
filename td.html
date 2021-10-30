@@ -9,8 +9,12 @@
     <link rel="shortcut icon" type="image/jpg" href="https://drive.google.com/uc?export=view&id=1DUvkBN_oyUKwuN8izgco-DnOUPOrJ-10">
     <link rel="stylesheet" type="text/css" href="td.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-
+    <link rel="stylesheet" type="text/css" href="css/bootstrap">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-social.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/animatecss/3.5.2/animate.min.css">
     
+    
+    <script src="https://kit.fontawesome.com/07b2666320.js" crossorigin="anonymous"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" ></script>
 
@@ -37,7 +41,64 @@
         </div>
       </nav>
 
-      
+      <div class="container-fluid">
+        <div class="row">
+          <ul>
+            <li>
+              <a class="btn btn-outline-white" id="back-btn" href="portfolio.html">
+                <i class="fa fa-chevron-left wow fadeInLeft" data-wow-delay="0.7s" id="glyph"></i>
+                <h1 class="wow fadeInLeft" id="portfolio-header" data-wow-delay="0.9s">Portfolio</h1>
+              </a>
+            </li>
+          </ul>
+        </div>
+        
+        
+
+        <div class="row" id="social-row">
+          <div class="col-md-12 mb-4 white-text text-center">
+            <ul class="soc">
+              <!-- Instagram -->
+              <li>
+                <a class="btn btn-social-icon btn-instagram wow fadeInLeft" data-wow-delay="0.7s" href="https://www.instagram.com/okansens_/" id="ig-btn">
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </li>
+              <!-- Youtube -->
+              <li>
+                <a class="btn btn-social-icon btn-youtube wow fadeInLeft" data-wow-delay="0.9s" href="https://www.youtube.com/channel/UCokzzi-KbQJYuGCCHUTo5nQ" id="yt-btn">
+                  <i class="fa fa-youtube"></i>
+                </a>
+              </li>
+              <!-- Artstation -->
+              <li>
+                <a class="btn btn-social-icon btn-artstation wow fadeInLeft" data-wow-delay="1.1s" href="https://www.artstation.com/grimnightstalker" id="as-btn">
+                  <i class="fab fa-artstation"></i>
+                </a>
+              </li>
+              <!-- Github -->
+              <li>
+                <a class="btn btn-social-icon btn-github wow fadeInLeft" data-wow-delay="1.3s" href="https://github.com/OkanSen" id="gh-btn">
+                  <i class="fa fa-github"></i>
+                </a>
+              </li>
+              <!-- Patreon -->
+              <li>
+                <a class="btn btn-social-icon btn-patreon wow fadeInLeft" data-wow-delay="1.5s" href="https://www.patreon.com/user" id="p-btn">
+                  <i class="fab fa-patreon"></i>
+                </a>
+              </li>
+              <!-- Linkedin -->
+              <li>
+                <a class="btn btn-social-icon btn-linkedin wow fadeInLeft" data-wow-delay="1.5s" href="https://www.linkedin.com/in/okan-sen-2186821a6/" id="li-btn">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
 
 
 
@@ -56,7 +117,7 @@
               </div>
             </div>
 
-            <div class="row">
+            <div class="row top-buffer">
               <div class="col col-img">
                 <img class="img-fluid" id="cybercity-img" src="https://drive.google.com/uc?export=view&id=1VAI4YPigEdcpWpH4xGjlFoyPezrpZVZo" onclick="openModal();currentSlide(3)">
               </div>
@@ -70,11 +131,10 @@
               </div>
             </div>
 
-            <div class="row">
+            <div class="row top-buffer">
               <div class="col col-img">
                 <div class="iframe-container">
-                  <iframe width="967" height="544" src="https://www.youtube.com/embed/8D-bGibpZ-o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
-                  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <iframe width="967" height="544" src="https://www.youtube.com/embed/8D-bGibpZ-o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
               </div>
 
@@ -89,7 +149,7 @@
               </div>
             </div>
 
-            <div class="row">
+            <div class="row top-buffer">
               <div class="col col-img">
                 <img class="img-fluid" id="arch-img" src="https://drive.google.com/uc?export=view&id=16vfaRHjyz4bjnlig9xXboE8Y4ZfPWfKn" onclick="openModal();currentSlide(7)">
               </div>
@@ -99,7 +159,7 @@
               </div>
             </div>
 
-            <div class="row">
+            <div class="row top-buffer">
               <div class="col col-img">
                 <a class="btn btn-outline-white" href="index.html">
                   <h2 class="h2-responsive white-text font-weight-bold mb-0 pt md-5 pt-5" id="footer-txt" style="font-size:4vh"><strong>a website by, OKAN SEN</strong></h2>
@@ -107,7 +167,7 @@
               </div>
             </div>
 
-            <div class="row">
+            <div class="row top-buffer">
               <div class="col">
                 <a class="btn btn-outline-white" href="index.html">
                   <h3>.</h3>

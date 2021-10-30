@@ -244,7 +244,19 @@ a{
   color: white;
 }
 
+#as-btn{
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
 #gh-btn {
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
+#p-btn{
   border: none;
   background-color: transparent;
   color: white;
@@ -254,4 +266,36 @@ a{
   border: none;
   background-color: transparent;
   color: white;
+}
+
+
+
+
+#ig-btn:hover {
+  transition: color linear 0.3s;
+  color: #f0a911;
+}
+#yt-btn:hover {
+  transition: color linear 0.3s;
+  color: #f0a911;
+}
+
+#as-btn:hover{
+  transition: color linear 0.3s;
+  color: #f0a911;
+}
+
+#gh-btn:hover {
+  transition: color linear 0.3s;
+  color: #f0a911;
+}
+
+#p-btn:hover{
+  transition: color linear 0.3s;
+  color: #f0a911;
+}
+
+#li-btn:hover {
+  transition: color linear 0.3s;
+  color: #f0a911;
 }
