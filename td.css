@@ -106,7 +106,7 @@ nav .navbar-nav li a {
     padding: 2.5px;
 }
 
-.col {
+.col-img {
     overflow: hidden;
     position: relative;
     width: 100%;
@@ -294,12 +294,37 @@ nav .navbar-nav li a {
     height: 100%;
   }
 
+#header-title-archvis{
+    position: absolute;
+    color: #fff;
+    letter-spacing: 0.5vw;
+    font-size: 2.5vw !important;
+    left: 27%;
+    top: 5vh;
+}
+#header-title-td{
+    position: absolute;
+    color: #fff;
+    letter-spacing: 0.5vw;
+    font-size: 2.5vw !important;
+    left: 32%;
+    top: 5vh;
+}
+#header-title-orchestral{
+    position: absolute;
+    color: #fff;
+    letter-spacing: 0.5vw;
+    font-size: 2.5vw !important;
+    left: 32%;
+    top: 5vh;
+}
+
 h2{
     position: absolute;
     color: #fff;
     letter-spacing: 0.5vw;
-    font-size: 1vw !important;
-    left: 70%;
+    font-size: 2vh !important;
+    left: 75%;
 }
 
 h3{
@@ -313,7 +338,7 @@ h3{
     vertical-align: middle;
     position: absolute;
     top: 10vh;
-    left: 75%;
+    left: 80%;
 }
   
   
@@ -336,6 +361,9 @@ a{
 text-decoration: none;
 }
 
+i{
+    font-size: 15pt !important;   
+}
 
 #ig-btn {
 border: none;
@@ -418,7 +446,7 @@ color: white;
 #glyph{
     position: absolute;
     border: none;
-    left: -3vh;
+    left: -18vh;
     font-size: 14pt !important;
     background-color: transparent;
     color: white;
@@ -431,7 +459,7 @@ color: white;
 #portfolio-header{
     position: absolute;
     color: #fff;
-    left: 20%;
+    left: -15vh;
     font-size: 12pt !important;
     letter-spacing: 0.5vw;
 }
