@@ -1,0 +1,125 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    
+
+    background-color: black;
+}
+
+.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px rgb(44, 44, 44);
+    -moz-box-shadow: 0 8px 6px -6px rgb(44, 44, 44);
+    box-shadow: 0 8px 6px -6px rgb(24, 24, 24);
+
+/* the rest of your styling */
+}
+
+#mainNav.navbar--home{
+    background:transparent;
+}
+
+#nav-brand{
+    position: relative;
+}
+
+#nav-home-btn {
+    position: relative;
+}
+
+#nav-link-btn {
+    position: relative;
+}
+
+#nav-dis-btn {
+    position: relative;
+}
+
+.top-nav-collapse {
+    background-color: #78909c !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+nav .navbar-brand {
+    font-family: Montserrat;
+    color: white !important;
+}
+
+nav .navbar-nav li a {
+    font-family: Montserrat;
+    color: white !important;
+}
+
+#search-bar{
+    position: relative;
+    background: transparent;
+    border-radius: 0px 0px 0px 0px;
+    border: none;
+    border-bottom: 1px solid #fff;
+}
+
+#search-bar:focus {
+    outline: none;
+    transition: box-shadow linear 1s;
+    border-bottom-color: #f0a911;
+    box-shadow: 0 0 10px #e8ed9e;
+}
+
+.bg{
+    position: absolute;
+    margin-top: 5vh;
+
+    display: flex;
+    justify-content: space-around;
+
+    background-color: black;
+    
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.mask.rgba-black-light.align-items-center{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-fluid.cont-custom{
+    width: 90%;
+    position: absolute;
+    top: 10vh;
+}
+
+.top-buffer{
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.col {
+    overflow: hidden;
+    position: relative;
+    height: 260px;
+}
+
+.col-6.col-md-6.col-sm-12{
+ height: auto !important;
+}
+
+.img-fluid {
+    position: absolute;
+    width: auto;
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}

@@ -7,7 +7,7 @@
     <title>Okan Sen</title>
 
     <link rel="shortcut icon" type="image/jpg" href="https://drive.google.com/uc?export=view&id=1DUvkBN_oyUKwuN8izgco-DnOUPOrJ-10">
-    <link rel="stylesheet" type="text/css" href="portfolio.css">
+    <link rel="stylesheet" type="text/css" href="td.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
     
@@ -33,49 +33,79 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" id="nav-home-btn" aria-current="page" href="#" style = color:white !important;>Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="nav-link-btn" href="#" style = color:white !important;>Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" id="nav-dis-btn" href="#" tabindex="-1" aria-disabled="true" style = color:white !important;>Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" id="search-bar" placeholder="Search" aria-label="Search" style = color:white !important;>
-            </form>
-          </div>
+          
         </div>
       </nav>
       <div class="container-fluid bg">
         <div class="mask rgba-black-light align-items-center">
-          <div class="container">
-            <div class="row">
-              <div class="col">
-                <a class="btn btn-outline-white" id="img1" href="td.html">
-                  <img class="img-responsive" id="td-img" src="https://cdna.artstation.com/p/assets/images/images/033/901/992/large/okan-sen-nightdrivess5.jpg?1610878402">
-                  <h1 id="td-txt">3D Models and Scenes</h1>
-                </a>
+          <div class="container-fluid cont-custom">
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Launch demo modal
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
               </div>
             </div>
 
+            <div class="row top-buffer">
+
+              <div class="col-6 col-md-6 col-sm-12">
+
+                
+
+                <a class="btn btn-outline-white" id="flyingpickup-btn" data-bs-toggle="modal" data-bs-target="#flyingpickup-modal">
+                  <img class="img-fluid" id="flyingpickup-img" src="https://drive.google.com/uc?export=view&id=1IFrfGXP09rsSkdkSN7tbqDSjbryzg9qN">
+                </a>
+
+                
+
+              </div>
+
+              <div class="col">
+
+                
+                <img class="img-fluid" id="flyingpickup-img" src="https://drive.google.com/uc?export=view&id=1IFrfGXP09rsSkdkSN7tbqDSjbryzg9qN">
+                
+
+              </div>
+
+            </div>
+
             <div class="row">
+
               <div class="col">
-                <a class="btn btn-outline-white" id="td-btn" href="td.html">
-                  <img class="img-responsive" id="td-img" src="https://cdna.artstation.com/p/assets/images/images/033/901/992/large/okan-sen-nightdrivess5.jpg?1610878402">
-                  <h1 id="td-txt">3D Models and Scenes</h1>
-                </a>
+
+                
+                <img class="img-fluid" id="td-img" src="https://cdna.artstation.com/p/assets/images/images/033/901/992/large/okan-sen-nightdrivess5.jpg?1610878402">
+                
+
               </div>
+
               <div class="col">
-                <a class="btn btn-outline-white" id="arch-btn" href="arch.html">
-                  <img class="img-responsive" id="arch-img" src="https://cdnb.artstation.com/p/assets/images/images/038/215/861/large/okan-sen-highresscreenshot00000.jpg?1622494351">
-                  <h1 id="arch-txt">Architectural Renders</h1>
-                </a>
+
+                
+                <img class="img-fluid" id="arch-img" src="https://cdnb.artstation.com/p/assets/images/images/038/215/861/large/okan-sen-highresscreenshot00000.jpg?1622494351">
+                
+
               </div>
+
             </div>
             
             

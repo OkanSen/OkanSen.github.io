@@ -4,7 +4,6 @@ html {
 
 body {
     width: 100vw;
-    height: 100vh;
 
     background-color: black;
 }
@@ -100,32 +99,46 @@ nav .navbar-nav li a {
     background-color: black;
     position: relative;
     overflow: hidden;
-}
-
-
-.col-md-6.overflow-cl{
-    background-color: black;
-    padding-left: 0;
-    padding-right: 0;
-    max-height: 50vh;
     display: flex;
+    flex-flow: wrap;
+}
+
+
+.col-12.col-md-6.col-sm-12.overflow-cl{
+    display: block;
+    background-color: black;
+    object-fit: contain;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    max-height: 50vh;
+
+    text-align: center;
+    
 
 }
 
-.img-responsive{
-    object-fit: cover;
-    max-width:100%;
-}
 
 
 h1{
     font-family: Montserrat;
     font-size: 1.5vw !important;
     color: white;
+    letter-spacing: 0.5vw;
 
     position: absolute;
     opacity: 0;
     top: 45%;
+
+    align-items: center;
+    text-align: center;
+}
+
+.img-fluid{
+    width: 100%; /* You can set the dimensions to whatever you want */
+    object-fit: contain;
 }
 
 /*      ------------------------    */
@@ -135,41 +148,41 @@ h1{
     /*First column center is 25% but 
     to center the text to that spot 
     we have to find a good number*/
-    left: 15.7%;
+    left: 10%;
 }
 
 #arch-txt{
     /*Second column center is 75% but 
     to center the text to that spot 
     we have to find a good number*/
-    left: 65.8%;
-}
-
-
-#ta-txt{
-    /*First column center is 25% but 
-    to center the text to that spot 
-    we have to find a good number*/
-    left: 19%; 
-}
-#digital-txt{
-    /*Second column center is 75% but 
-    to center the text to that spot 
-    we have to find a good number*/
-    left: 70.5%;  
+    left: 56%;
 }
 
 #orch-txt{
     /*First column center is 25% but 
     to center the text to that spot 
     we have to find a good number*/
-    left: 14.6%;  
+    left: 8%;  
 }
+
+#ta-txt{
+    /*First column center is 75% but 
+    to center the text to that spot 
+    we have to find a good number*/
+    left: 65%; 
+}
+#digital-txt{
+    /*Second column center is 25% but 
+    to center the text to that spot 
+    we have to find a good number*/
+    left: 16%;  
+}
+
 #va-txt{
     /*Second column center is 75% but 
     to center the text to that spot 
     we have to find a good number*/
-    left: 69.6%;
+    left: 68%;
 }
 
 /*      ---------------------------         */
@@ -181,6 +194,9 @@ a.btn.btn-outline-white{
     border: none;
     background-color: transparent;
     color: none;
+    
+    align-items: center;
+    text-align: center;
 }
 
 #td-btn:hover #td-img{
@@ -231,12 +247,7 @@ a.btn.btn-outline-white{
     opacity: 100;
 }
 
-h1{
-    font-family: Montserrat;
-    color: #fff;
-    letter-spacing: 0.5vw;
-    
-}
+
   
 
 .blank-cont{
