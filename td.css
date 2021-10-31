@@ -186,7 +186,18 @@ nav .navbar-nav li a {
 
 }
 
-
+.wrapper{
+  height: 90vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+#maintain{
+  position: relative;
+  top: 50%;
+  left: 35%;
+  right: 35%;
+}
 
 
 
