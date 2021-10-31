@@ -133,6 +133,24 @@ nav .navbar-nav li a {
     right: 16%;
     top: 100px !important;
 }
+#header-title-ta{
+  position: absolute;
+  color: #fff;
+  letter-spacing: 0.5vw;
+  font-size: 30pt !important;
+  left: 13.5%;
+  right: 13.5%;
+  top: 100px !important;
+}
+#header-title-digital{
+  position: absolute;
+  color: #fff;
+  letter-spacing: 0.5vw;
+  font-size: 30pt !important;
+  left: 13.5%;
+  right: 13.5%;
+  top: 100px !important;
+}
   #back-btn{
     display: flex;
     position: absolute;
@@ -405,6 +423,31 @@ nav .navbar-nav li a {
     right: 16%;
     top: 40px;
 }
+#header-title-ta{
+  position: absolute;
+  color: #fff;
+  letter-spacing: 0.5vw;
+  font-size: 30pt !important;
+  left: 13.5%;
+  right: 13.5%;
+  top: 40px;
+}
+#header-title-digital{
+  position: absolute;
+  color: #fff;
+  letter-spacing: 0.5vw;
+  font-size: 30pt !important;
+  left: 13.5%;
+  right: 13.5%;
+  top: 40px;
+}
+
+
+
+
+
+
+
 
 h2{
     position: absolute;
