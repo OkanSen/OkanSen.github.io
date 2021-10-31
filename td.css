@@ -233,7 +233,7 @@ nav .navbar-nav li a {
   
 .row.thumbnails-row {
     float: left;
-    height: 130px;
+    height: 65px;
 }
 
   /* Create four equal columns that floats next to eachother */
@@ -242,7 +242,7 @@ nav .navbar-nav li a {
     float: left;
   }
   .demo {
-      height: 100px;
+      height: 65px;
   }
   
   /* The Modal (background) */
@@ -250,7 +250,7 @@ nav .navbar-nav li a {
     display: none;
     position: fixed;
     z-index: 1;
-    padding-top: 100px;
+    padding-top: 35px;
     left: 0;
     top: 0;
     width: 100%;
@@ -261,21 +261,23 @@ nav .navbar-nav li a {
   
   /* Modal Content */
   .modal-content {
-    position: relative;
-    background-color: #fefefe;
+    position: absolute;
+    background-color:  black;
     margin: auto;
     padding: 0;
     width: 90%;
-    max-width: 1200px;
+    width: 900px;
+    height: 612px;
+    display: block;
   }
   
   /* The Close Button */
   .close {
     color: white;
     position: absolute;
-    top: 10px;
+    top: 7px;
     right: 25px;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: bold;
   }
   
@@ -289,6 +291,9 @@ nav .navbar-nav li a {
   /* Hide the slides by default */
   .mySlides {
     display: none;
+    max-height: 800px;
+    overflow: auto;
+    background-color: black;
   }
   
   /* Next & previous buttons */
