@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap">
     <link rel="stylesheet" type="text/css" href="css/bootstrap-social.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/animatecss/3.5.2/animate.min.css">
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     
     <script src="https://kit.fontawesome.com/07b2666320.js" crossorigin="anonymous"></script>
 
@@ -101,43 +101,55 @@
       </div>
     </div>
     
-
+    
 
     
     <div class="wrapper">
       <div class="top-bar">
-        <i class="fas fa-chevron-down"></i>
+        <i class="material-icons">expand_more</i>
         <span>Now Playing</span>
-        <i class="fas fa-chevron-down"></i>
+        <i class="material-icons">more_horiz</i>
       </div>
       <div class="img-area">
         <img src="resources/other pics/orchestral.jpg" alt="">
       </div>
       <div class="song-details">
-        <p class="name">asdasd</p>
-        <p class="artist">asdsdgdsdsb</p>
+        <p class="name"></p>
+        <p class="artist"></p>
       </div>
       <div class="progress-area">
         <div class="progress-bar">
-          <span></span>
+          <audio id="main-audio" src=""></audio>
         </div>
-        <div class="timer">
-          <span class="current">0:20</span>
-          <span class="current">3:40</span>
+        <div class="song-timer">
+          <span class="current-time">0:00</span>
+          <span class="max-duration">0:00</span>
         </div>
       </div>
       <div class="controls">
-        <i id="repeat-plist" class="fas fa-redo-alt"></i>
-        <i id="repeat-plist" class="fas fa-step-backward"></i>
-
+        <i id="repeat-plist" class="material-icons" title="Playlist looped">repeat</i>
+        <i id="prev" class="material-icons">skip_previous</i>
         <div class="play-pause">
-          <i class="fas fa-play"></i>
+          <i class="material-icons play">play_arrow</i>
         </div>
-
-        <i id="repeat-plist" class="fas fa-step-forward"></i>
-        <i id="repeat-plist" class=""></i>
+        <i id="next" class="material-icons">skip_next</i>
+        <i id="more-music" class="material-icons">queue_music</i>
+      </div>
+      <div class="music-list">
+        <div class="header">
+          <div class="row">
+            <i class= "list material-icons">queue_music</i>
+            <span>Music list</span>
+          </div>
+          <i id="close" class="material-icons">close</i>
+        </div>
+        <ul>
+          <!-- here li list are coming from js -->
+        </ul>
       </div>
     </div>
+    <script src="js/music-list.js"></script>
+    <script src="js/script.js"></script>
     
     
         

@@ -93,8 +93,87 @@ nav .navbar-nav li a {
 .container-fluid.cont-custom{
     width: 90%;
     position: absolute;
-    top: 10vh;
+    top: 120px;
 }
+
+
+
+@media screen and (max-width:1100px) {
+
+  .container-fluid.cont-custom{
+    width: 90%;
+    position: absolute;
+    top: 180px;
+  }
+
+  #header-title-archvis{
+    position: absolute;
+    color: #fff;
+    letter-spacing: 0.5vw;
+    font-size: 30pt !important;
+    left: 27%;
+    right: 27%;
+    top: 100px !important;
+  }
+  #header-title-td{
+    position: absolute;
+    color: #fff;
+    letter-spacing: 0.5vw;
+    font-size: 30pt !important;
+    left: 16%;
+    right: 16%;
+    top: 100px !important;
+}
+#header-title-orchestral{
+    position: absolute;
+    color: #fff;
+    letter-spacing: 0.5vw;
+    font-size: 30pt !important;
+    left: 16%;
+    right: 16%;
+    top: 100px !important;
+}
+  #back-btn{
+    display: flex;
+    position: absolute;
+    top: 64px !important;
+    align-items: left;
+    text-align: left;
+  }
+  #glyph{
+    position: absolute;
+    border: none;
+    left: 70% !important;
+    font-size: 16pt !important;
+    background-color: transparent;
+    color: white;
+  } 
+  #portfolio-header{
+    position: absolute;
+    color: #fff;
+    left: 150% !important;
+    font-size: 12pt !important;
+    letter-spacing: 0.5vw;
+  }
+
+  #social-row {
+    display: table-row;
+    justify-content: space-around;
+    align-items: center;
+    vertical-align: middle;
+    position: absolute;
+    top: 100px !important;
+    right: 5%;
+  }
+
+}
+
+
+
+
+
+
+
 
 .top-buffer{
     background-color: black;
@@ -298,25 +377,28 @@ nav .navbar-nav li a {
     position: absolute;
     color: #fff;
     letter-spacing: 0.5vw;
-    font-size: 2.5vw !important;
-    left: 27%;
-    top: 5vh;
+    font-size: 30pt !important;
+    left: 13.5%;
+    right: 13.5%;
+    top: 40px;
 }
 #header-title-td{
     position: absolute;
     color: #fff;
     letter-spacing: 0.5vw;
-    font-size: 2.5vw !important;
-    left: 32%;
-    top: 5vh;
+    font-size: 30pt !important;
+    left: 16%;
+    right: 16%;
+    top: 40px;
 }
 #header-title-orchestral{
     position: absolute;
     color: #fff;
     letter-spacing: 0.5vw;
-    font-size: 2.5vw !important;
-    left: 32%;
-    top: 5vh;
+    font-size: 30pt !important;
+    left: 16%;
+    right: 16%;
+    top: 40px;
 }
 
 h2{
@@ -338,7 +420,7 @@ h3{
     vertical-align: middle;
     position: absolute;
     top: 10vh;
-    left: 80%;
+    right: 5%;
 }
   
   
@@ -363,6 +445,7 @@ text-decoration: none;
 
 i{
     font-size: 15pt !important;   
+    letter-spacing: 1vw !important;
 }
 
 #ig-btn {
@@ -439,15 +522,17 @@ color: white;
 
 
 #back-btn{
-    position: absolute;
-    top: 12vh;
-    left: 15%;
+  display: flex;
+  position: absolute;
+  top: 91px;
+  align-items: left;
+  text-align: left;
 }
 #glyph{
     position: absolute;
     border: none;
-    left: -18vh;
-    font-size: 14pt !important;
+    left: 300%;
+    font-size: 16pt !important;
     background-color: transparent;
     color: white;
 }
@@ -459,7 +544,7 @@ color: white;
 #portfolio-header{
     position: absolute;
     color: #fff;
-    left: -15vh;
+    left: 400%;
     font-size: 12pt !important;
     letter-spacing: 0.5vw;
 }

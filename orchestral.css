@@ -74,13 +74,83 @@ nav .navbar-nav li a {
 
 
 #header-title-orchestral{
+  position: absolute;
+  color: #fff;
+  letter-spacing: 0.5vw;
+  font-size: 30pt !important;
+  left: 16%;
+  right: 16%;
+  top: 40px;
+}
+
+
+@media screen and (max-width:1100px) {
+
+.wrapper{
+  width: 90%;
+  padding: 25px 30px;
+  overflow: hidden;
+  position: absolute;
+  top: 350px !important;
+  border-radius: 15px;
+  background: var(--white);
+  box-shadow: 0px 6px 15px var(--lightbshadow);
+}
+#header-title-orchestral{
     position: absolute;
     color: #fff;
     letter-spacing: 0.5vw;
-    font-size: 2.5vw !important;
-    left: 32%;
-    top: 5vh;
+    font-size: 30pt !important;
+    left: 16%;
+    right: 16%;
+    top: 100px !important;
 }
+  #back-btn{
+    display: flex;
+    position: absolute;
+    top: 64px !important;
+    align-items: left;
+    text-align: left;
+  }
+  #glyph{
+    position: absolute;
+    border: none;
+    left: 70% !important;
+    font-size: 16pt !important;
+    background-color: transparent;
+    color: white;
+  } 
+  #portfolio-header{
+    position: absolute;
+    color: #fff;
+    left: 150% !important;
+    font-size: 12pt !important;
+    letter-spacing: 0.5vw;
+  }
+
+  #social-row {
+    display: table-row;
+    justify-content: space-around;
+    align-items: center;
+    vertical-align: middle;
+    position: absolute;
+    top: 100px !important;
+    right: 5%;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 h2{
     position: absolute;
@@ -95,13 +165,13 @@ h3{
 }
 
 #social-row {
-    display: table-row;
-    justify-content: space-around;
-    align-items: center;
-    vertical-align: middle;
-    position: absolute;
-    top: 10vh;
-    left: 80%;
+  display: table-row;
+  justify-content: space-around;
+  align-items: center;
+  vertical-align: middle;
+  position: absolute;
+  top: 10vh;
+  right: 5%;
 }
   
   
@@ -125,7 +195,8 @@ text-decoration: none;
 }
 
 i{
-    font-size: 15pt !important;   
+  font-size: 15pt !important;   
+  letter-spacing: 1vw !important; 
 }
 
 #ig-btn {
@@ -202,17 +273,19 @@ color: white;
 
 
 #back-btn{
-    position: absolute;
-    top: 12vh;
-    left: 15%;
+  display: flex;
+  position: absolute;
+  top: 91px;
+  align-items: left;
+  text-align: left;
 }
 #glyph{
-    position: absolute;
-    border: none;
-    left: -18vh;
-    font-size: 14pt !important;
-    background-color: transparent;
-    color: white;
+  position: relative;
+  border: none;
+  left: -45.3vw !important;
+  font-size: 16pt !important;
+  background-color: transparent;
+  color: white;
 }
 #glyph:hover{
     transition: color linear 0.3s;
@@ -220,11 +293,11 @@ color: white;
 }
 
 #portfolio-header{
-    position: absolute;
-    color: #fff;
-    left: -15vh;
-    font-size: 12pt !important;
-    letter-spacing: 0.5vw;
+  position: absolute;
+  color: #fff;
+  left: -43vw !important;
+  font-size: 12pt !important;
+  letter-spacing: 0.5vw;
 }
 
 #portfolio-header:hover{
@@ -240,20 +313,40 @@ color: white;
 
 
 /*  PLAYLIST CSS HERE!!!!  */
+.wrapper.complist{
+  width: 60%;
+  padding: 25px 30px;
+  overflow: hidden;
+  position: absolute;
+  top: 250px;
+  left: 500px;
+  border-radius: 15px;
+  color: white;
+}
+
+
+
 .wrapper{
     width: 90%;
     padding: 25px 30px;
     overflow: hidden;
     position: absolute;
-    top: 20vh;
+    top: 250px;
     border-radius: 15px;
     background: var(--white);
     box-shadow: 0px 6px 15px var(--lightbshadow);
+    color: white;
   }
   .wrapper i{
     cursor: pointer;
   }
-  .top-bar, .progress-area .song-timer, 
+  .top-bar{
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    width: 380px;
+  }
+  .progress-area .song-timer, 
   .controls, .music-list .header, .music-list ul li{
     display: flex;
     align-items: center;
@@ -345,10 +438,10 @@ color: white;
   .controls i{
     font-size: 28px;
     user-select: none;
-    background: linear-gradient(var(--pink) 0%, var(--violet) 100%);
+    background: none;
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: white;
   }
   .controls i:nth-child(2),
   .controls i:nth-child(4){
@@ -368,8 +461,8 @@ color: white;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    background: linear-gradient(var(--white) 0%, var(--darkwhite) 100%);
-    box-shadow: 0px 0px 5px var(--pink);
+    background: none;
+    color: white;
   }
   .play-pause::before{
     position: absolute;
@@ -377,7 +470,7 @@ color: white;
     height: 43px;
     width: 43px;
     border-radius: inherit;
-    background: linear-gradient(var(--pink) 0%, var(--violet) 100%);
+    background: none;
   }
   .play-pause i{
     height: 43px;
@@ -387,7 +480,7 @@ color: white;
     background: inherit;
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: white;
     position: absolute;
   }
   .music-list{
