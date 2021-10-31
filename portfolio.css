@@ -68,6 +68,137 @@ nav .navbar-nav li a {
 }
 
 
+
+@media screen and (max-width:1367px) {
+
+    #td-img{
+        transition: 0.2s;
+        filter: brightness(20%);
+    }
+    #td-txt{
+        font-size: 13pt !important;
+        left: 8% !important;
+        right: 60% !important;
+        opacity: 100 !important;
+    }
+    
+    #arch-img{
+        transition: 0.2s;
+        filter: brightness(20%);
+    }
+    #arch-txt{
+        font-size: 13pt !important;
+        left: 58% !important;
+        right: 2% !important;
+        opacity: 100;
+    }
+
+    #orch-img{
+        transition: 0.2s;
+        filter: brightness(20%);
+    }
+    #orch-txt{
+        font-size: 13pt !important;
+        left: 6% !important;
+        right: 60% !important;
+        opacity: 100;
+    }
+    
+    #ta-img{
+        transition: 0.2s;
+        filter: brightness(20%);
+    }
+    #ta-txt{
+        font-size: 13pt !important;
+        left: 64% !important;
+        right: 15% !important;
+        opacity: 100;
+    }
+    
+    #digital-img{
+        transition: 0.2s;
+        filter: brightness(20%);
+    }
+    #digital-txt{
+        font-size: 13pt !important;
+        left: 15% !important;
+        right: 68% !important;
+        opacity: 100;
+    }
+    
+    #va-img{
+        transition: 0.2s;
+        filter: brightness(20%);
+    }
+    #va-txt{
+        font-size: 13pt !important;
+        left: 66% !important;
+        right: 15% !important;
+        opacity: 100;
+    }
+}
+@media screen and (max-width:767px) {
+
+    
+
+    #td-txt{
+        font-size: 10pt !important;
+        opacity: 100 !important;
+        left: 25% !important;
+        right: 25% !important;
+        top: 30%;
+    }
+    
+    
+    #arch-txt{
+        font-size: 10pt !important;
+        opacity: 100;
+        left: 25% !important;
+        right: 25% !important;
+        top: 80%;
+    }
+    
+    #orch-txt{
+        font-size: 10pt !important;
+        opacity: 100;
+        left: 25% !important;
+        right: 25% !important;
+        top: 30%;
+    }
+
+    #ta-txt{
+        font-size: 10pt !important;
+        opacity: 100;
+        left: 25% !important;
+        right: 25% !important;
+        top: 80%;
+    }
+    
+    #digital-txt{
+        font-size: 10pt !important;
+        opacity: 100;
+        left: 25% !important;
+        right: 25% !important;
+        top: 30%;
+    }
+    
+    #va-txt{
+        font-size: 10pt !important;
+        opacity: 100;
+        left: 25% !important;
+        right: 25% !important;
+        top: 80%;
+    }
+
+}
+
+
+
+
+
+
+
+
 .bg{
     position: absolute;
     margin-top: 5vh;
@@ -123,7 +254,7 @@ nav .navbar-nav li a {
 
 h1{
     font-family: Montserrat;
-    font-size: 1.5vw !important;
+    font-size: 17.28pt !important;
     color: white;
     letter-spacing: 0.5vw;
 
@@ -218,6 +349,7 @@ a.btn.btn-outline-white{
     background-color: transparent;
     color: none;
     
+    display: block;
     align-items: center;
     text-align: center;
 }
