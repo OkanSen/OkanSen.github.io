@@ -227,7 +227,7 @@ p{
   }
   
 }
-@media screen and (max-height:335px) {
+@media screen and (max-height:400px) {
   #about-btn{
     position: absolute;
     top: 55% !important;
