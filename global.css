@@ -225,6 +225,19 @@ p{
     right: 30%;
     top: -25% !important;
   }
+  
+}
+@media screen and (max-height:335px) {
+  #about-btn{
+    position: absolute;
+    top: 55% !important;
+    right: 10% !important;
+  }
+  #portfolio-btn{
+    position: absolute;
+    top: 55% !important;
+    left: 10% !important;
+  }
 }
 
 
