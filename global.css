@@ -212,6 +212,22 @@ p{
 }
 
 
+@media screen and (max-width:767px) {
+
+  i{
+    font-size: 14pt !important;
+  }
+}
+@media screen and (max-height:500px) {
+  #name-tag{
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    top: -25% !important;
+  }
+}
+
+
 
 ul{
   list-style: none;
