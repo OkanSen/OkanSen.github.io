@@ -177,6 +177,7 @@ const ulTag = wrapper.querySelector("ul");
 // let create li tags according to array length for list
 for (let i = 0; i < allMusic.length; i++) {
   //let's pass the song name, artist from the array
+  console.log("traversing array of music at index: " + i);
   let liTag = `<li li-index="${i + 1}">
                 <div class="row">
                   <span>${allMusic[i].name}</span>
