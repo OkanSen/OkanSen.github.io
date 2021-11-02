@@ -73,6 +73,40 @@ nav .navbar-nav li a {
 
 
 
+/*        SCROLLBAR MAIN            */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #505050;
+  box-shadow: inset 0 0 5px black;;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(228, 124, 27);
+  box-shadow: inset 0 0 5px rgb(24, 13, 3);;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(255, 161, 74);
+}
+
+
+
+
+
+
+
+
+
+
 #header-title-orchestral{
   position: absolute;
   color: #fff;
@@ -444,7 +478,7 @@ color: white;
     width: 0%;
     position: relative;
     border-radius: inherit;
-    background: red;
+    background: rgb(228, 124, 27);
   }
   .progress-bar::before{
     content: "";
@@ -458,7 +492,7 @@ color: white;
     opacity: 0;
     pointer-events: none;
     transform: translateY(-50%);
-    background: red;
+    background: rgb(228, 124, 27);
     transition: opacity 0.2s ease;
   }
   .progress-area:hover .progress-bar::before{
@@ -566,12 +600,13 @@ color: white;
     pointer-events: none;
   }
   .music-list ul{
+    position: relative;
     margin: 10px 0;
     max-height: 260px;
     overflow: auto;
   }
   .music-list ul::-webkit-scrollbar{
-    width: 0px;
+    width: 10px;
   }
   .music-list ul li{
     list-style: none;
@@ -595,7 +630,8 @@ color: white;
   }
   ul li .audio-duration{
     font-size: 12px;
-    text-align: right;
+    left: auto;
+    right: 100px;
   }
   ul li.playing{
     pointer-events: none;
