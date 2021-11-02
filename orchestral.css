@@ -20,14 +20,14 @@ body {
 }
 
 #mainNav.navbar--home{
-    background:transparent;
+    background:black;
 }
 
 #nav-brand{
     position: relative;
 }
 
-#nav-home-btn {
+#nav-contact-btn {
     position: relative;
 }
 
@@ -42,9 +42,11 @@ body {
 .top-nav-collapse {
     background-color: #78909c !important;
 }
-
+#nav-toggler-bars{
+  color: white;
+}
 .navbar:not(.top-nav-collapse) {
-    background: transparent !important;
+    background: black !important;
 }
 nav .navbar-brand {
     font-family: Montserrat;
@@ -351,9 +353,9 @@ color: white;
     transition: color linear 0.3s;
     color: #f0a911;
 }
-#glyph:hover ~ #portfolio-header{
+#portfolio-header:hover ~ #glyph{
   transition: color linear 0.3s;
-  color: #f0a911;
+  color:#f0a911;
 }
 
 #portfolio-header{
@@ -368,10 +370,7 @@ color: white;
     transition: color linear 0.3s;
     color:#f0a911;
 }
-#portfolio-header:hover  #back-btn{
-    transition: color linear 0.3s;
-    color:#f0a911;
-}
+
 
 #footer-txt:hover{
     transition: color linear 0.6s;

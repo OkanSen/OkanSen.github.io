@@ -34,9 +34,21 @@
         <div class="container-fluid">
           <a class="navbar-brand" id="nav-brand" href="index.html"><strong>OKAN</strong></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <i class="fas fa-bars" id="nav-toggler-bars"></i>
           </button>
-          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                  <a class="nav-link active" id="nav-portf-btn" aria-current="page" href="portfolio.html" style = color:white !important;>Portfolio</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link disabled" id="nav-dis-btn" tabindex="-1" aria-disabled="true" style = color:white !important;>|</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active" id="nav-contact-btn" aria-current="page" href="contact.html" style = color:white !important;>Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
   
@@ -52,8 +64,8 @@
           <ul>
             <li>
               <a class="btn btn-outline-white" id="back-btn" href="portfolio.html">
-                <i class="fa fa-chevron-left wow fadeInLeft" data-wow-delay="0.7s" id="glyph"></i>
-                <h1 class="wow fadeInLeft" id="portfolio-header" data-wow-delay="0.9s">Portfolio</h1>
+                <h1 class="wow fadeInLeft" id="portfolio-header" data-wow-delay="0.7s">Portfolio</h1>
+                <i class="fa fa-chevron-left wow fadeInLeft" data-wow-delay="0.9s" id="glyph"></i>
               </a>
             </li>
           </ul>

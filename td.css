@@ -9,23 +9,27 @@ body {
 }
 
 .navbar {
-    -webkit-box-shadow: 0 8px 6px -6px rgb(44, 44, 44);
-    -moz-box-shadow: 0 8px 6px -6px rgb(44, 44, 44);
-    box-shadow: 0 8px 6px -6px rgb(24, 24, 24);
+  -webkit-box-shadow: 0 8px 6px -6px rgb(44, 44, 44);
+  -moz-box-shadow: 0 8px 6px -6px rgb(44, 44, 44);
+  box-shadow: 0 8px 6px -6px rgb(24, 24, 24);
 
 /* the rest of your styling */
 }
 
 #mainNav.navbar--home{
-    background:transparent;
+    background:black;
 }
 
 #nav-brand{
     position: relative;
 }
-
-#nav-home-btn {
+.navbar ul {
+  position: relative;
+  text-align: right;
+}
+#nav-contact-btn {
     position: relative;
+    text-align: right;
 }
 
 #nav-link-btn {
@@ -39,9 +43,11 @@ body {
 .top-nav-collapse {
     background-color: #78909c !important;
 }
-
+#nav-toggler-bars{
+  color: white;
+}
 .navbar:not(.top-nav-collapse) {
-    background: transparent !important;
+    background: black !important;
 }
 nav .navbar-brand {
     font-family: Montserrat;
@@ -52,6 +58,11 @@ nav .navbar-nav li a {
     font-family: Montserrat;
     color: white !important;
 }
+nav .navbar-nav li a:hover{
+  background:r#f0a911;
+}
+
+
 
 #search-bar{
     position: relative;
@@ -641,7 +652,10 @@ color: white;
     font-size: 12pt !important;
     letter-spacing: 0.5vw;
 }
-
+#portfolio-header:hover ~ #glyph{
+  transition: color linear 0.3s;
+    color:#f0a911;
+}
 #portfolio-header:hover{
     transition: color linear 0.3s;
     color:#f0a911;

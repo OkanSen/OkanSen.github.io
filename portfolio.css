@@ -16,7 +16,7 @@ body {
 }
 
 #mainNav.navbar--home{
-    background:transparent;
+    background:black;
 }
 
 #nav-brand{
@@ -38,9 +38,11 @@ body {
 .top-nav-collapse {
     background-color: #78909c !important;
 }
-
+#nav-toggler-bars{
+    color: white;
+}
 .navbar:not(.top-nav-collapse) {
-    background: transparent !important;
+    background: black !important;
 }
 nav .navbar-brand {
     font-family: Montserrat;
