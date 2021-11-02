@@ -108,6 +108,9 @@ nav .navbar-nav li a {
     border-radius: 15px;
     box-shadow: 0px 6px 12px var(--lightbshadow);
   }
+
+  
+  
 }
 @media screen and (max-width:1100px) {
 
@@ -137,21 +140,8 @@ nav .navbar-nav li a {
     align-items: left;
     text-align: left;
   }
-  #glyph{
-    position: absolute;
-    border: none;
-    left: 70% !important;
-    font-size: 16pt !important;
-    background-color: transparent;
-    color: white;
-  } 
-  #portfolio-header{
-    position: absolute;
-    color: #fff;
-    left: 150% !important;
-    font-size: 12pt !important;
-    letter-spacing: 0.5vw;
-  }
+  
+  
 
   #social-row {
     display: table-row;
@@ -184,6 +174,7 @@ nav .navbar-nav li a {
 
 .container-fluid.cont{
   position: absolute;
+  z-index: -1;
   padding: 100px;
   top: 120%;
 }
@@ -311,16 +302,13 @@ color: white;
 
 
 #back-btn{
-  display: flex;
   position: absolute;
   top: 91px;
-  align-items: left;
-  text-align: left;
 }
 #glyph{
-  position: relative;
+  position: absolute;
   border: none;
-  left: -45.3vw !important;
+  left: -45.3vw;
   font-size: 16pt !important;
   background-color: transparent;
   color: white;
@@ -329,16 +317,24 @@ color: white;
     transition: color linear 0.3s;
     color: #f0a911;
 }
+#glyph:hover ~ #portfolio-header{
+  transition: color linear 0.3s;
+  color: #f0a911;
+}
 
 #portfolio-header{
   position: absolute;
   color: #fff;
-  left: -43vw !important;
+  left: -40vw;
   font-size: 12pt !important;
   letter-spacing: 0.5vw;
 }
 
 #portfolio-header:hover{
+    transition: color linear 0.3s;
+    color:#f0a911;
+}
+#portfolio-header:hover  #back-btn{
     transition: color linear 0.3s;
     color:#f0a911;
 }
@@ -436,7 +432,7 @@ color: white;
     letter-spacing: 0.3vw;
   }
   .progress-area{
-    height: 6px;
+    height: 4px;
     z-index: 3;
     width: 100%;
     border-radius: 50px;
@@ -448,7 +444,7 @@ color: white;
     width: 0%;
     position: relative;
     border-radius: inherit;
-    background: linear-gradient(90deg, var(--pink) 0%, var(--violet) 100%);
+    background: red;
   }
   .progress-bar::before{
     content: "";
@@ -462,7 +458,7 @@ color: white;
     opacity: 0;
     pointer-events: none;
     transform: translateY(-50%);
-    background: inherit;
+    background: red;
     transition: opacity 0.2s ease;
   }
   .progress-area:hover .progress-bar::before{
