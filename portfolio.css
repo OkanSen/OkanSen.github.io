@@ -54,19 +54,9 @@ nav .navbar-nav li a {
     color: white !important;
 }
 
-#search-bar{
-    position: relative;
-    background: transparent;
-    border-radius: 0px 0px 0px 0px;
-    border: none;
-    border-bottom: 1px solid #fff;
-}
-
-#search-bar:focus {
-    outline: none;
-    transition: box-shadow linear 1s;
-    border-bottom-color: #f0a911;
-    box-shadow: 0 0 10px #e8ed9e;
+#nav-portf-btn{
+    font-size: 15pt;
+    color: #f0a911 !important;
 }
 
 

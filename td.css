@@ -314,9 +314,11 @@ nav .navbar-nav li a:hover{
   .dem {
     display: block;
     float: left;
+    overflow: hidden;
   }
   .demo {
-      height: 65px;
+    height: 64px;
+    width: 64px;
   }
   
   /* The Modal (background) */
