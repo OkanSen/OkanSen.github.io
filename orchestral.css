@@ -69,7 +69,7 @@ nav .navbar-nav li a {
 #search-bar:focus {
     outline: none;
     transition: box-shadow linear 1s;
-    border-bottom-color: #f0a911;
+    border-bottom-color: #ff2222;
     box-shadow: 0 0 10px #e8ed9e;
 }
 
@@ -84,20 +84,20 @@ nav .navbar-nav li a {
 /* Track */
 ::-webkit-scrollbar-track {
   background: #505050;
-  box-shadow: inset 0 0 5px black;;
+  box-shadow: inset 0 0 5px black;
   border-radius: 10px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(228, 124, 27);
-  box-shadow: inset 0 0 5px rgb(24, 13, 3);;
+  background: rgb(255, 34, 34);
+  box-shadow: inset 0 0 5px rgb(24, 13, 3);
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(255, 161, 74);
+  background: rgb(224, 70, 70);
 }
 
 
@@ -343,31 +343,31 @@ color: white;
 
 #ig-btn:hover {
     transition: color linear 0.3s;
-    color: #f0a911;
+    color: #ff2222;
   }
   #yt-btn:hover {
     transition: color linear 0.3s;
-    color: #f0a911;
+    color: #ff2222;
   }
   
   #as-btn:hover{
     transition: color linear 0.3s;
-    color: #f0a911;
+    color: #ff2222;
   }
   
   #gh-btn:hover {
     transition: color linear 0.3s;
-    color: #f0a911;
+    color: #ff2222;
   }
   
   #p-btn:hover{
     transition: color linear 0.3s;
-    color: #f0a911;
+    color: #ff2222;
   }
   
   #li-btn:hover {
     transition: color linear 0.3s;
-    color: #f0a911;
+    color: #ff2222;
   }
   
 
@@ -388,11 +388,11 @@ color: white;
 }
 #glyph:hover{
     transition: color linear 0.3s;
-    color: #f0a911;
+    color: #ff2222;
 }
 #portfolio-header:hover ~ #glyph{
   transition: color linear 0.3s;
-  color:#f0a911;
+  color:#ff2222;
 }
 
 #portfolio-header{
@@ -405,13 +405,13 @@ color: white;
 
 #portfolio-header:hover{
     transition: color linear 0.3s;
-    color:#f0a911;
+    color:#ff2222;
 }
 
 
 #footer-txt:hover{
     transition: color linear 0.6s;
-    color: #f0a911;
+    color: #ff2222;
 }
 
 

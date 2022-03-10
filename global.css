@@ -71,7 +71,7 @@ nav .navbar-nav li a {
 #search-bar:focus {
   outline: none;
   transition: box-shadow linear 1s;
-  border-bottom-color: #f0a911;
+  border-bottom-color: #ff2222;
   box-shadow: 0 0 10px #e8ed9e;
 }
 
@@ -87,7 +87,7 @@ nav .navbar-nav li a {
 }
 
 .bg{
-  background-image: url("https://drive.google.com/uc?export=view&id=1n47oGlsxvI9AwvdmUVQlzr8na67rpUrE");
+  background-image: url("https://drive.google.com/uc?export=view&id=1GuXl7PplgRTPr33OsyX8aNQaFVh0Eo5j");
   
   height:100vh;
   width: 100vw;
@@ -163,8 +163,8 @@ p{
 #portfolio-btn:hover {
   transition: border-color linear 0.3s;
   transition: box-shadow linear 1s;
-  border-color: #f0a911;
-  box-shadow: 0 0 10px #f0a911;
+  border-color: #ff2222;
+  box-shadow: 0 0 10px #ff2222;
 }
 
 #portfolio-btn:active {
@@ -190,8 +190,8 @@ p{
 #about-btn:hover {
   transition: border-color linear 1s;
   transition: box-shadow linear 0.3s;
-  border-color: #f0a911;
-  box-shadow: 0 0 10px #f0a911;
+  border-color: #ff2222;
+  box-shadow: 0 0 10px #ff2222;
 }
 
 #about-btn:active {
@@ -302,29 +302,29 @@ a{
 
 #ig-btn:hover {
   transition: color linear 0.3s;
-  color: #f0a911;
+  color: #ff2222;
 }
 #yt-btn:hover {
   transition: color linear 0.3s;
-  color: #f0a911;
+  color: #ff2222;
 }
 
 #as-btn:hover{
   transition: color linear 0.3s;
-  color: #f0a911;
+  color: #ff2222;
 }
 
 #gh-btn:hover {
   transition: color linear 0.3s;
-  color: #f0a911;
+  color: #ff2222;
 }
 
 #p-btn:hover{
   transition: color linear 0.3s;
-  color: #f0a911;
+  color: #ff2222;
 }
 
 #li-btn:hover {
   transition: color linear 0.3s;
-  color: #f0a911;
+  color: #ff2222;
 }

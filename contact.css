@@ -59,7 +59,7 @@ color: white !important;
 
 #nav-contact-btn{
     font-size: 15pt;
-    color: #f0a911 !important;
+    color: #ff2222 !important;
 }
 
 
@@ -166,31 +166,31 @@ color: white;
 
 #ig-btn:hover {
     transition: color linear 0.3s;
-    color: #f0a911;
+    color: #ff2222;
     }
     #yt-btn:hover {
     transition: color linear 0.3s;
-    color: #f0a911;
+    color: #ff2222;
     }
     
     #as-btn:hover{
     transition: color linear 0.3s;
-    color: #f0a911;
+    color: #ff2222;
     }
     
     #gh-btn:hover {
     transition: color linear 0.3s;
-    color: #f0a911;
+    color: #ff2222;
     }
     
     #p-btn:hover{
     transition: color linear 0.3s;
-    color: #f0a911;
+    color: #ff2222;
     }
     
     #li-btn:hover {
     transition: color linear 0.3s;
-    color: #f0a911;
+    color: #ff2222;
     }
 
 
@@ -220,15 +220,14 @@ color: white;
   }
 
   @media screen and (max-width:450px){
-    .letter {
-        display: inline-block;
-        margin: 0 0.2vw;
-        font-size: 14pt;
-        min-width: 2vw; /* this is for spaces */
-        transform: translate(0, 900%);
+    .word{
+      top: 70px;
+    }
+    .letter{
+      font-size: 14pt !important;
+    }
+    i{
+      font-size: 12pt !important;   
+      letter-spacing: 1vw !important;
       }
-      i{
-        font-size: 12pt !important;   
-        letter-spacing: 1vw !important;
-        }
   }
